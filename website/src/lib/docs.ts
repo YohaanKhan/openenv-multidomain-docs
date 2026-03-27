@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-// The docs directory is one level up from the website directory
-const docsDirectory = path.join(process.cwd(), '../docs');
+// The docs directory is now inside the website directory for better deployment compatibility
+const docsDirectory = path.join(process.cwd(), 'docs');
 
 export interface DocFile {
   slug: string;

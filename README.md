@@ -14,8 +14,8 @@ The official documentation website for the **openenv-multidomain** project. Buil
 
 ## 📂 Repository Structure
 
-- `/docs`: The source markdown files for the documentation.
-- `/website`: The Next.js 15 application that parses and renders the `/docs` content.
+- `website/docs`: The source markdown files for the documentation.
+- `website`: The Next.js 15 application that parses and renders the `/docs` content.
 
 ## 🛠️ Local Development
 
