@@ -2,7 +2,7 @@
 
 The official documentation website for the **openenv-multidomain** project. Built with Next.js, Tailwind CSS, and React Markdown, this site provides a premium, IDE-inspired reading experience for engine developers.
 
-![Documentation Site Screenshot](./website/public/screenshot.png)
+![Documentation Site Screenshot](./public/screenshot.png)
 
 ## 🚀 Key Features
 
@@ -14,8 +14,9 @@ The official documentation website for the **openenv-multidomain** project. Buil
 
 ## 📂 Repository Structure
 
-- `website/docs`: The source markdown files for the documentation.
-- `website`: The Next.js 15 application that parses and renders the `/docs` content.
+- `/docs`: The source markdown files for the documentation.
+- `/src`: The Next.js 15 application source code.
+- `/public`: Static assets (images, icons).
 
 ## 🛠️ Local Development
 
@@ -27,7 +28,6 @@ The official documentation website for the **openenv-multidomain** project. Buil
 
 2. **Install dependencies:**
    ```bash
-   cd website
    npm install
    ```
 
@@ -37,7 +37,7 @@ The official documentation website for the **openenv-multidomain** project. Buil
    ```
 
 4. **View the site:**
-   Open [http://localhost:3000](http://localhost:3000) (or 3001) in your browser.
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📄 License
 
