@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@source "../node_modules/@tailwindcss/typography";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-border: #333333;
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --color-accent: #111111;
+  --color-accent-foreground: #ffffff;
+  --color-muted: #888888;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    @apply antialiased;
+    /* Selection color */
+    ::selection {
+      background-color: #333;
+      color: #fff;
+    }
+  }
+
+  /* Custom scrollbar for an IDE look */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a2d2e;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #444;
+  }
+}
